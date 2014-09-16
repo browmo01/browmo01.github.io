@@ -21,9 +21,11 @@ th#low {
 	}	
 li#laundry {
 	text-decoration: line-through;
+	list-style-image: url(http://theadventurebite.com/wp-content/uploads/checkmark-small.gif);
 	}
 li#coms {
 	text-decoration: line-through;
+	list-style-image: url(http://theadventurebite.com/wp-content/uploads/checkmark-small.gif);
 	}
 li#groceries {
 	text-decoration: line-through;
