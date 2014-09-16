@@ -18,6 +18,9 @@ th#low {
 	background-color: hotpink;
 	color: white;
 	}	
-li#laundry li#coms {
+li#laundry {
+	text-decoration: line-through;
+	}
+li#coms {
 	text-decoration: line-through;
 	}
