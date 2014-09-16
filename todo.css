@@ -5,11 +5,8 @@ h1 {
 	Color: purple;
 	font-size: 30pt;
 	}
-th {
-	background-color: pink;
-	color: white;
-	}
-th { 
+
+th id="high" { 
 	background-color: purple;
 	color: white;
 	}
