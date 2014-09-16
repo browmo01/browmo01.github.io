@@ -18,7 +18,6 @@ th#low {
 	background-color: hotpink;
 	color: white;
 	}	
-li#checkmark {
-	content:"\2713\0020";
+li#laundry {
+	text-decoration: line-through;
 	}
-	
