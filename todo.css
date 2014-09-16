@@ -29,4 +29,6 @@ li#groceries {
 	text-decoration: line-through;
 	}
 	
-	
+li#groceries {
+	list-style: &#10003;
+	}
