@@ -18,6 +18,7 @@ th#low {
 	background-color: hotpink;
 	color: white;
 	}	
-ul.a {
-	list-style-type: check-mark;
+ul.checkmark li:before {
+	content:"\2713\0020";
 	}
+	
