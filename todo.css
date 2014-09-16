@@ -20,4 +20,5 @@ th#low {
 	}	
 li#laundry {
 	text-decoration: line-through;
+	text-decoration: checkmark;
 	}
