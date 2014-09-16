@@ -10,6 +10,12 @@ th#high {
 	background-color: purple;
 	color: white;
 	}
-	
-	
+th#medium { 
+	background-color: grey;
+	color: white;
+	}	
+th#low { 
+	background-color: blue;
+	color: white;
+	}	
 	
