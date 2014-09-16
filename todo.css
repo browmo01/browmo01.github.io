@@ -27,8 +27,6 @@ li#coms {
 	}
 li#groceries {
 	text-decoration: line-through;
+	list-style-image: url(checkmark.gif);
 	}
 	
-li#groceries {
-text-decoration: hex="&#10003"
-}
