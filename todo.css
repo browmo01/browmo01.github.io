@@ -18,7 +18,6 @@ th#low {
 	background-color: hotpink;
 	color: white;
 	}	
-li#laundry {
+li#laundry li#coms {
 	text-decoration: line-through;
-	text-decoration: checkmark;
 	}
