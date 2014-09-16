@@ -6,7 +6,7 @@ h1 {
 	font-size: 30pt;
 	}
 
-th id="high" { 
+th#high { 
 	background-color: purple;
 	color: white;
 	}
