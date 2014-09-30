@@ -19,6 +19,7 @@ nav {
 }
 section {
     width:350px;
+    height: 600px;
     float:left;
     padding:10px;
     background-color: light-grey; 
