@@ -1,7 +1,7 @@
 
 header {
     height: 100px;
-    background-color:grey;
+   
     color:hotpink;
     text-align:center;
     padding:5px;
@@ -22,7 +22,7 @@ section {
     height: 100%;
     float:left;
     padding:10px;
-    background-image: url(	 	 
+    background0color: grey; 
 }
 
 footer {
