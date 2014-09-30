@@ -3,7 +3,8 @@ header {
     background-color:grey;
     color:magenta;
     text-align:center;
-    padding:5px;	 
+    padding:5px;
+    font-family: arial;	 
 }
 nav {
     line-height:30px;
