@@ -5,6 +5,8 @@ header {
     text-align:center;
     padding:5px;
     font-family: arial;	 
+    background-image: url(http://www.thebakersconfections.com/wp-content/uploads/2014/02/polka-dot-banner.jpg) 
+
 }
 nav {
     line-height:30px;
@@ -27,6 +29,4 @@ footer {
     padding:5px;	 	 
 }
 
-body {
-background-image: url(http://www.thebakersconfections.com/wp-content/uploads/2014/02/polka-dot-banner.jpg) 
-}
+
