@@ -12,18 +12,19 @@ header {
 nav {
     line-height:30px;
     background-color:#eeeeee;
-    
+    height: 100%;
     width:100px;
     float:left;
     padding:5px;	      
 }
 section {
     width:350px;
-    
+    height: 100%;
     float:left;
     padding:10px;
     background-image: url(	 	 
 }
+
 footer {
     background-color:grey;
     color:pink;
