@@ -2,7 +2,7 @@
 header {
     height: 100px;
   
-    color:pink;
+    color:purple;
     text-align:center;
     padding:10px;
     font-family: arial;	 
@@ -33,7 +33,7 @@ section {
 
 footer {
     background-color: grey;
-    color:pink;
+    color:purple;
     clear:both;
     text-align:center;
     padding:5px;	 	 
