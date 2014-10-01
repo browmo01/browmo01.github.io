@@ -28,9 +28,11 @@ section {
 
 aside {
 
- width:50%;
- float: right;
-    padding:10px;
+ line-height:30px;
+    height: 300px;
+    width:100px;
+    float:left;
+    padding:5px;
      background-color: pink;
     font-family: arial;
     }
