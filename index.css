@@ -9,6 +9,10 @@ header {
     background-image: url(http://25.media.tumblr.com/tumblr_m0g2w6VOnM1qdh06ao1_1280.png) 
 
 }
+
+h1 {
+text-align: center;
+}
 nav {
     line-height:30px;
     background-color:#eeeeee;
