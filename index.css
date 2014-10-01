@@ -4,7 +4,7 @@ header {
   
     color:hotpink;
     text-align:center;
-    padding:5px;
+    padding:10px;
     font-family: arial;	 
     background-image: url(http://www.prettyunexpected.com/wp-content/uploads/2013/09/Knitted-pattern-grey.jpg) 
 
@@ -13,6 +13,7 @@ header {
 h1 {
 text-align: center;
 }
+
 nav {
     line-height:30px;
     background-color:#eeeeee;
@@ -23,8 +24,7 @@ nav {
 }
 section {
     width:100%;
-    height: 600px;
-    
+    height: 600px;  
     padding:10px;
     background-color: light-grey; 
     font-family: arial;
