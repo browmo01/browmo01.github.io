@@ -18,7 +18,7 @@ nav {
     padding:5px;	      
 }
 section {
-    width:350px;
+    width:50%;
     float:left;
     padding:10px;
     background-color: light-grey; 
@@ -27,7 +27,8 @@ section {
 
 aside {
 
- width:350px;
+ width:50%px;
+ float: right;
     padding:10px;
     background-color: light-grey; 
     font-family: arial;
