@@ -22,9 +22,17 @@ section {
     float:left;
     padding:10px;
     background-color: light-grey; 
+    font-family: arial;
 }
 
+aside {
 
+ width:350px;
+    float:right;
+    padding:10px;
+    background-color: light-grey; 
+    font-family: arial;
+    }
 footer {
     background-color:grey;
     color:pink;
