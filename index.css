@@ -16,7 +16,7 @@ text-align: center;
 
 nav {
     line-height:30px;
-    background-color: CCCCCC;
+    background-color: white;
     height: 640px;
     width:100px;
     float:left;
@@ -26,13 +26,13 @@ section {
     
     height: 630px;  
     padding:10px;
-    background-color: pink; 
+    background-color: FFCCFF; 
     font-family: arial;
 }
 
 
 footer {
-    background-color:grey;
+    background-color: grey;
     color:pink;
     clear:both;
     text-align:center;
