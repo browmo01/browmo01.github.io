@@ -3,6 +3,7 @@
 <title>colors</title>
 </head>
 <body>
+
 <label for="redi">Red:</label>
 <input type="text" id="redi" value="225" /> <br>
 <label for="greeni">Green:</label>
@@ -10,8 +11,15 @@
 <label for="bluei">Blue:</label>
 <input type="text" id="bluei" value="225" /> <br>
 <button id="doit" onclick="changeColor()">Change Color</button>
+
 <script type="text/javascript">
 changeColor = function(){
+var red, green, blue;
+red = document.querySelector ("#redi");
+green = document.querySelector ("#greeni");
+blue = document.querySelector ("#bluei");
+newColor = "rgb(" + + "," + + "," + + ")"
+document.body.style.backgroundColor = "rgb(125,248,10)"
 }
 
 </script>
