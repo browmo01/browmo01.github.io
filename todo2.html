@@ -3,7 +3,7 @@
 <h1>Busy List</h1>
 <main>
 <ul id="tasklist"></ul>
-
+<bl></bl>
 </main>
 
 <aside> 
@@ -22,7 +22,8 @@ addTask=function() {
 i=document.querySelector("taskbox")
 bl=document.querySelector("busylist")
 li=document.createElement("li")
-li.innerHTML = "<input type=checkbox>" + i.value
+cb=document.createElement("input")
+cb.type="checkbox"
 bl.appendChild(li)
 }
 </script>
