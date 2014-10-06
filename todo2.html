@@ -1,0 +1,30 @@
+<html>
+<body>
+<h1>Busy List</h1>
+<main>
+<ul id="tasklist"></ul>
+
+</main>
+
+<aside> 
+<label for="taskbox">Enter Task</label>
+<input type="text" id="taskbox" size=40 value="Enter text here">
+<select id="priority">
+	<option>high</option>
+	<option>medium</option>
+	<option>low</option>
+	</select>
+<button onclick="addtask()"> New </button>
+</aside>
+
+<script type="text/javascript">
+addTask=function() {
+i=document.querySelector("taskbox")
+bl=document.querySelector("busylist")
+li=document.createElement("li")
+li.innerHTML = "<input type=checkbox>" + i.value
+bl.appendChild(li)
+}
+</script>
+</body>
+<html>
