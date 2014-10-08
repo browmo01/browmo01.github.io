@@ -24,3 +24,4 @@ text-align: center;
 
 doneTask = function() {
 this.parentNode.className = "done"
+}
