@@ -16,6 +16,9 @@ margin-right: auto;
 
 }
 
+main.ul {
+style: none;
+}
 
 aside {
 text-align: center;
