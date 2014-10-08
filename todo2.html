@@ -21,7 +21,7 @@
 
 <script type="text/javascript">
 addTask=function() {
-var newli;
+var newli
 task = document.querySelector("#taskbox")
 tasklist = document.querySelector("#busylist")
 priorityValue = document.querySelector("#priority").value
@@ -32,7 +32,7 @@ newcb.type = 'checkbox'
 newli.appendChild(newcb)
 t = document.createTextNode(task.value)
 newli.appendChild(t)
-newcb.id = taskCount
+
 taskList.appendChild(newli)
 task.value = ""
 newcb.onclick = doneTask
