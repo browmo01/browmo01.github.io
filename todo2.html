@@ -3,7 +3,7 @@
 <body>
 <h1>My To Do List</h1>
 <main>
-<ul id="taskbox"></ul>
+<ul id="tasklist"></ul>
 
 </main>
 
@@ -23,7 +23,7 @@
 addTask=function() {
 var newli
 task = document.querySelector("#taskbox")
-taskList = document.querySelector("#taskbox")
+taskList = document.querySelector("#tasklist")
 priorityValue = document.querySelector("#priority").value
 newli = document.createElement('li')
 newli.className = priorityValue
