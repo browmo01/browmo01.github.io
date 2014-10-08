@@ -1,0 +1,11 @@
+body {
+font-family: arial;
+font-size: 20pt;
+color: black;
+}
+
+main {
+background-color: pink;
+width: 200px;
+height: 500px;
+}
