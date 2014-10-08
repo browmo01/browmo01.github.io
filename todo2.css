@@ -2,10 +2,16 @@ body {
 font-family: arial;
 font-size: 20pt;
 color: black;
+text-align: center;
 }
 
 main {
 background-color: pink;
-width: 200px;
-height: 500px;
+width: 500;
+height: 400px;
+
+}
+
+aside {
+text-align: center;
 }
