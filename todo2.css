@@ -34,12 +34,14 @@ this.parentNode.className = "done"
 
 
 .high { 
-color: red:
+color: red;
 }
 
 .medium { 
-color: blue }
+color: blue;
+ }
 
 
 .low { 
-color: pink }
+color: purple;
+}
