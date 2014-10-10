@@ -33,3 +33,13 @@ this.parentNode.className = "done"
 }
 
 
+.high { 
+color: red:
+}
+
+.medium { 
+color: blue }
+
+
+.low { 
+color: pink }
