@@ -33,4 +33,6 @@ this.parentNode.className = "done"
 }
 
 
-li.high { 
+input#priority{
+color: red:
+}
