@@ -17,7 +17,7 @@ overflow: auto;
 
 }
 
-#tasklist ul {
+ul#tasklist {
 list-style-type: none;
 }
 
