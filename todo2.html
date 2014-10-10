@@ -41,8 +41,15 @@ newcb.onclick = doneTask;
 }
 
 doneTask = function() {
+if (this.checked) {
 this.parentNode.className = "done"
+} else {
+this.parentNode.className = ""
 }
+
+localSave = function () {
+res = []
+var i;
 
 </script>
 </body>
