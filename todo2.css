@@ -2,7 +2,6 @@ body {
 font-family: arial;
 font-size: 20pt;
 color: black;
-text-align: center;
 background-color: grey;
 
 }
@@ -18,6 +17,11 @@ overflow: auto;
 
 }
 
+#tasklist ul {
+list-style-type: none;
+}
+
+
 main.ul {
 list-style: none;
 }
@@ -30,3 +34,6 @@ text-align: center;
 doneTask = function() {
 this.parentNode.className = "done"
 }
+
+
+li.high { 
