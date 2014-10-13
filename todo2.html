@@ -36,7 +36,7 @@ newli.appendChild(t);
 taskList.appendChild(newli);
 task.value = "";
 newcb.onclick = doneTask;
-
+localSave()
 
 }
 
@@ -60,6 +60,11 @@ if (allEntries[i].className != "done") {
 res.push(allEntries[i].innerText);
 }
 }
+console.log(res)
+localStorage.setItem("todoDatabase",JSON.stringify(res))
+}
+
+restoreTasks= function() 
 
 
 
