@@ -42,10 +42,37 @@ newcb.onclick = doneTask;
 
 doneTask = function() {
 if (this.checked) {
-this.parentNode.className = "done"
+this.parentNode.classList.add("done");
 } else {
-this.parentNode.className = ""
+this.parentNode.classList.remove("done");
+
 }
+localSave()
+}
+
+
+localSave = function() {
+res = []
+var i;
+allEntries = document.querySelectorAll('li')
+for(i=0; i < allEntries.length; i++) {
+if (allEntries[i].className != "done") {
+res.push(allEntries[i].innerText);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </script>
